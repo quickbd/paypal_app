@@ -40,7 +40,7 @@ class RegisterView extends StatelessWidget {
                   ),
                   CustomButton(
                     title: "Sign Up",
-                    onTap: () => Get.to(() => const ProfileSetupView()),
+                    onTap: () => Get.to(() =>  ProfileSetupView()),
                   ),
                 ],
               ),
