@@ -11,7 +11,7 @@ class LoginView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: customAppBar( title: "Login"),
+      appBar: customAppBar(hideLeading: true),
       body: SingleChildScrollView(
         child: Center(
           child: Padding(
@@ -23,7 +23,8 @@ class LoginView extends StatelessWidget {
                   'assets/images/PayPal.png',
                   width: 170.0,
                 ),
-                const Column(
+                  SizedBox(height: 20.0,),
+                  const Column(
                   children: [
                     CustomField(title: "Email Address"),
                     SizedBox(
