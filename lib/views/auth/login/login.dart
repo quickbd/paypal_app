@@ -55,7 +55,6 @@ class LoginView extends StatelessWidget {
         
         
                     TextButton(onPressed: () {
-        
                       Get.to(()=> const RegisterView());
                     }, child: const Text("Sign Up"))
                   ],
