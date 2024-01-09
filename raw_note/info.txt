@@ -1,0 +1,3 @@
+https://medium.com/@samra.sajjad0001/a-complete-guide-to-integrating-firebase-in-flutter-step-by-step-34d49af9cff0
+
+https://firebase.flutter.dev/

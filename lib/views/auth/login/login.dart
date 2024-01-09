@@ -4,6 +4,8 @@ import 'package:paypal_app/views/auth/register/register.dart';
 import 'package:get/get.dart';
 import '../../../global_widgets/custom_appbar.dart';
 import '../../../global_widgets/custom_button.dart';
+import '../../home/home_view.dart';
+import '../../nav_view/nav_view.dart';
 
 class LoginView extends StatelessWidget {
   const LoginView({super.key});
@@ -23,20 +25,20 @@ class LoginView extends StatelessWidget {
                   'assets/images/PayPal.png',
                   width: 170.0,
                 ),
-                  SizedBox(height: 20.0,),
-                  const Column(
+                  const SizedBox(height: 20.0,),
+                    Column(
                   children: [
-                    CustomField(title: "Email Address"),
-                    SizedBox(
+                    const CustomField(title: "Email Address"),
+                    const SizedBox(
                       height: 20.0,
                     ),
-                    CustomField(title: "Password", secured: true),
-                    SizedBox(
+                    const CustomField(title: "Password", secured: true),
+                    const SizedBox(
                       height: 20.0,
                     ),
                     CustomButton(
                         title: "Login",
-                     // onTap:() => print("sss") ,
+                       onTap:() => Get.to( const BottomNavBar()) ,
                     ),
                   ],
                 ),
